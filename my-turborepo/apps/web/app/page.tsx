@@ -11,11 +11,15 @@ function Gradient({
   className?: string;
 }) {
   return (
+      <>
+
     <span
       className={`absolute mix-blend-normal will-change-[filter] rounded-[100%] ${
         small ? "blur-[32px]" : "blur-[75px]"
       } ${conic ? "bg-glow-conic" : ""} ${className ?? ""}`}
     />
+        <p className="colors-brand-50"></p>
+      </>
   );
 }
 

@@ -56,3 +56,12 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+
+
+### Design
+
+- [Tailwind CSS](https://tailwindcss.com/) update `packages/tailwind-config/tailwind.config.ts` for creating global stylings
+- For individual projects (in this case docs, or web), update tailwind.config.ts for specific projects
+- Everything global components is built in `packages/ui` folder
+
+- `page.tsx` is your page layout where you can test components, colors, font, etc
